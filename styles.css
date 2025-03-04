@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+div{
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.body{
+    height: 500px;
+    width: 320px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+.screen{
+    background-color: rgb(34, 34, 34);
+    border: 1px;
+    padding: 10px;
+    border-bottom: 0px; 
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+    width: 320px;
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.small-screen{
+    margin-top: 5px;
+    padding: 0px;
+    background-color: rgb(34, 34, 34);
+    font-size: 20px;
+    color: grey;
+    overflow: hidden;
+}
+
+.big-screen{
+    margin-top: 20px;
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(34, 34, 34);
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+.button{
+    padding: 10px;
+    margin: 0px;
+    height: 80px;
+    width: 80px; 
+    border: 1px solid;
+    border-left: 0px;
+    border-top: 0px;
+    background-color: rgb(128, 128, 128);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgba(25, 216, 246, 0.7);
+    
+    transition: opacity 0.3s ease; 
+}
+
+.top{
+    background-color: rgb(56, 56, 56);
+    border-top: 1px;
+    border-style: solid;
+}
+
+.operator{
+    background-color: rgb(254,159,13);
+}
+
+.key{
+    background-color: rgba(89, 89, 89)
+}
+
+#divide{
+    border-top: 1px;
+    border-style: solid;
+}
+
+.wide{
+    flex: 1;
+}
+
+.bottom-left{
+    border-radius: 0px 0px 0px 10px;
+}
+
+.bottom-right{
+    border-radius: 0px 0px 10px 0px;
+}
+
+#ac, #seven, #four, #one, #zero{
+    border-left: 1px;
+    border-style: solid;
+}
+
