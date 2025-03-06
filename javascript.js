@@ -106,7 +106,7 @@ function buttonClick(button){
     }
     else if(button.textContent == '='){
         button.addEventListener("click", () => {
-            if(isNumber(bigScreen.textContent[bigScreen.textContent.length - 1])){
+            if(isNumber(bigScreen.textContent[bigScreen.textContent.length - 1]) && bigScreen.textContent.split(operator).length > 1){
                 smallScreen.textContent = bigScreen.textContent + '=';
                 bigScreen.textContent = operate(+num1, +expression, operator);
                 expression = bigScreen.textContent;
