@@ -48,6 +48,7 @@ div{
 .small-screen{
     margin-top: 5px;
     padding: 0px;
+    height: 20px;
     background-color: rgb(34, 34, 34);
     font-size: 20px;
     color: grey;
